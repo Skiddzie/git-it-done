@@ -38,9 +38,9 @@ var getUserRepos = function(user) {
         
     })
 
-    .catch(function(error)) {
-        alert("unable to connect to github");
-    }
+    .catch(function(error) {
+        alert
+    });
 };
 
 var displayRepos = function(repos, searchTerm) {
